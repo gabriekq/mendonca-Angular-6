@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class DateComponent implements OnInit {
 
   dateMessage: string;
-
+  someNumber : number = 10;
 
   constructor() { 
   
@@ -21,5 +21,10 @@ export class DateComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  addTwoNumbers(someNumber ,b:number){
+    return someNumber+b;
+  }
+
 
 }
