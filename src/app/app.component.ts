@@ -9,7 +9,7 @@ import { User } from './address-card/user.model';
 export class AppComponent {
 
   user: User;
-  
+  inputText: string = "Intial value" ;
 
 
   constructor() {
